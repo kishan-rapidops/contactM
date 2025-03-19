@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+}
+.navbar{
+    background-color: #000;
+    padding: 0 2rem;
+    height: 50px;
+    color:white;
+    display:flex;
+    align-items: center;
+    width: 96%;
+    position:fixed;
+    z-index: 2;
+
+}
+.logo{
+    font-weight: bold;
+}
+.links{
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link{
+    text-decoration: none;
+    margin:0 10px;
+    color: #ccc;
+    font-weight: 600;
+}
+
+.link:hover,.nav_logout:hover{
+    color: white;
+}
+.link.active{
+    color: white;
+}
+.nav_logout{
+        cursor: pointer;
+        margin: 0 10px;
+        color: #ccc;
+        font-weight: 600;
+        font-size: medium;
+}

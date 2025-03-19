@@ -1,0 +1,74 @@
+.adduser{
+    padding-top: 4rem;
+}
+.form_container{
+    border: 1px solid #b6b6b6;
+    border-radius: 5px;
+    width: 40%;
+    align-items: center;
+    margin-top: 2rem;
+    margin: auto ;
+    /* height: 80vh; */
+    padding: 1rem;
+    box-shadow:0 0 10px rgba(0,0,0,0.4) inset ;
+}
+.form_body{
+    display: grid;
+    align-items: center;
+}
+.row{
+    margin:auto;
+    display: grid;
+    flex-direction: row;
+    margin-top: 1rem;
+    
+    width: 100%;
+}
+.row label{
+    font-weight: bold;
+    color:#6a6969;
+    
+}
+.row input{
+    margin: auto;
+    
+    padding: 7px;
+    width: 70%;
+    outline-color: rgb(148, 224, 249);
+    border:1px solid #b6b6b6;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+.row textarea {
+    margin: auto;
+    
+    padding: 7px;
+    width: 70%;
+    outline-color: rgb(148, 224, 249);
+    border: 1px solid #b6b6b6;
+    border-radius: 5px;
+}
+.form_container button{
+    margin: auto;
+    margin-top: 1rem;
+    padding: 0.3rem 0;
+    width: 30%;
+    border-radius: 20px;
+    background-color: rgb(20, 107, 247);
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.form_container button:hover{
+    background-color: rgb(20, 107, 247,0.8);
+}
+@media (min-width: 992px) {
+    .row{
+        display: flex;
+    }
+    .row textarea{
+        margin-left: 0.8rem;
+    }
+}
